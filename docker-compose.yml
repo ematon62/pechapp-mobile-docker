@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  db:
+  webapp:
+    env_file: "webapp.env"
+    ports:
+      - 80:80
+      - 443:443
+
